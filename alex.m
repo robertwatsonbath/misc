@@ -8,7 +8,7 @@ t=0:deltat:(Nsamp-1)*deltat;
 fs=1./deltat;
 
 % Frequency in Hz of thing to be generated (110kHz)
-f=110e3;
+f=250e3;
 
 % simple cosine wave +1/-1
 s=cos(2*pi*f*t);
